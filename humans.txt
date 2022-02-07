@@ -3,7 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Skyler Hoeger> -- <Skho4331@colorado.edu>
+
+    <Abby Schefer> -- <absc1674@colorado.edu>
+
+    <Isabella MacDonald> -- <isma8011@colorado.edu>
+
+    <Ally Rodnunsky> -- <alro7957@colorado.edy>
 
 # THANKS
 
