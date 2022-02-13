@@ -273,30 +273,48 @@ body {
 
 /* Header/logo Title */
 .header {
-  padding: 60px;
+  padding-top: 60px;
   text-align: center;
-  background: #1abc9c;
-  color: white;
+  background-color: white;
+}
+
+h1 {
+  font-size: small;
+  font-family: "Monoton", cursive;
+  background-image: linear-gradient(
+    to right,
+    red,
+    red,
+    rgb(255, 222, 77),
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  background-clip: text;
+  color: transparent;
 }
 
 /* Column container */
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 5%;
   padding-bottom: 5%;
 }
 
 /* Main column */
-.main {
-  flex: 60%;
-  background-color: white;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+.text {
+  padding: 50px;
+  margin: 3% 22% 3% 22%;
+  background-color: rgb(135, 135, 224);
+  box-sizing: border-box;
 
+  color: white;
+}
+p {
+  font-family: "Questrial", sans-serif;
+  font-size: medium;
+}
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .row,
