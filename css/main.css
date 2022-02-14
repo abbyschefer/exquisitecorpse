@@ -269,13 +269,14 @@ textarea {
 body {
   font-family: Arial;
   margin: 0;
+  background-color: black;
 }
 
 /* Header/logo Title */
 .header {
   padding-top: 60px;
   text-align: center;
-  background-color: white;
+  background-color: none;
 }
 
 h1 {
@@ -321,4 +322,69 @@ p {
   .navbar {
     flex-direction: column;
   }
+}
+
+/*Parallax scrolling for the background of the main container*/
+.parallax1 {
+  /* The image used */
+  background-image: url("../img/rainbow.jpeg");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  margin: 3% 10% 0% 10%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/rainbow2.jpeg");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  margin: 0% 10% 0% 10%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax3 {
+  /* The image used */
+  background-image: url("../img/black.jpeg");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  margin: 0% 10% 0% 10%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("../img/colorexplosion.jpeg");
+
+  /* Set a specific height */
+  min-height: 350px;
+
+  margin: 0% 10% 0% 10%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
